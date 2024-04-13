@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header .img-title{
+    height:200px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    top:0;
+    left:50%;
+    transform:translateX(-100px) ;
+    z-index: 999;
+}
+
+.img-title img{
+    height: 150px;
+    width: 150px;
+}
+
+.translate{
+    position: fixed;
+    top:20px;
+    right: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    gap:10px;
+    color:hsl(255,10%,20%);
+}
+
+.translate i{
+    font-size: 10px;
+}
+
+.content{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-content{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.number{
+    font-size:110px;
+    font-weight: 500;
+    grid-row:1 / span 2;
+    grid-column: 1;
+}
+
+.unit{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+
+.reset{
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 25px;
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+
+.button{
+    width: 200px;
+    height: 25px;
+    border: 1.5px solid hsl(255,10%,60%);
+    color: hsl(255,10%,60%);
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    justify-self: center;
+    padding:3px;
+    margin-top:40px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap:20px;
+}
+
+.item{
+    background-color: hsl(255,10%,20%);
+    height: 40px;
+    width: 40px;
+    color:hsl(255,10%,95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.item-special{
+    font-size: 39px;
+    color:hsl(255,10%,20%);
+}
+
+.logo{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: hsl(255,20%,10%);
+    gap:5px;
+}
+
+.img-logo img{
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+
